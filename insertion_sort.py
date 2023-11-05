@@ -2,6 +2,7 @@
 
 array_list = [2, 6, 5, 3, 7]
 
+
 for i in range(1, len(array_list)):
     j = i
     while array_list[j - 1] > array_list[j] and j > 0:
